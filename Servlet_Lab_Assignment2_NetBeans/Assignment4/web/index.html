@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Online Store</title></head>
+<body>
+    <h2>Select Items</h2>
+    <form action="Assignment4_Sudhangsu" method="post">
+        <input type="hidden" name="step" value="cart">
+        <table border="1" cellpadding="6">
+            <tr><th>Item</th><th>Category</th><th>Price (Rs.)</th><th>Quantity</th></tr>
+            <tr><td>Java Book</td><td>Books</td><td>450</td>
+                <td><input type="number" name="book" min="0" value="0"></td></tr>
+            <tr><td>Wireless Mouse</td><td>Gadgets</td><td>700</td>
+                <td><input type="number" name="gadget" min="0" value="0"></td></tr>
+            <tr><td>T-Shirt</td><td>Apparel</td><td>400</td>
+                <td><input type="number" name="apparel" min="0" value="0"></td></tr>
+        </table><br>
+        <input type="submit" value="View Cart">
+    </form>
+</body>
+</html>
