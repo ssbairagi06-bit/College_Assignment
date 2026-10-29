@@ -1,9 +1,7 @@
-<%-- 
-    Document   : result
-    Created on : Oct 29, 2026, 4:08:46 PM
-    Author     : sudhangsu-shekhar-bairagi
+<%--
+  Name: Sudhangsu Shekhar Bairagi | Roll No: 13071025097 | Date: 28-10-2026
+  Assignment 5: Cart summary (View). The cart is a session-scoped JavaBean.
 --%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>

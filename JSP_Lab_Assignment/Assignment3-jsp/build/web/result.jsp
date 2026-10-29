@@ -1,9 +1,7 @@
-<%-- 
-    Document   : result
-    Created on : Oct 29, 2026, 3:51:26 PM
-    Author     : sudhangsu-shekhar-bairagi
+<%--
+  Name: Sudhangsu Shekhar Bairagi | Roll No: 13071025097 | Date: 28-10-2026
+  Assignment 3: Saves feedback in the beans and shows average ratings (View).
 --%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
@@ -69,4 +67,3 @@
 <p><a href="index.jsp">Give feedback</a></p>
 </body>
 </html>
-

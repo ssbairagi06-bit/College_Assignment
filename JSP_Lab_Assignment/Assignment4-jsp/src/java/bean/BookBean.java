@@ -1,11 +1,10 @@
+/*
+ * Name: Sudhangsu Shekhar Bairagi | Roll No: 13071025097 | Date: 28-10-2026
+ * Assignment 4: BookBean - one book record (Model).
+ */
 package bean;
 
-/**
- *
- * @author sudhangsu-shekhar-bairagi
- */
 public class BookBean {
-
     private final int id;
     private final String title;
     private final String author;
@@ -18,19 +17,8 @@ public class BookBean {
         this.available = available;
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public boolean isAvailable() {
-        return available;
-    }
+    public int getId()          { return id; }
+    public String getTitle()    { return title; }
+    public String getAuthor()   { return author; }
+    public boolean isAvailable(){ return available; }
 }

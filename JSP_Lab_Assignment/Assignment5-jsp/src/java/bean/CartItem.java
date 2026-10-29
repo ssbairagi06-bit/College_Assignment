@@ -1,12 +1,10 @@
-
+/*
+ * Name: Sudhangsu Shekhar Bairagi | Roll No: 13071025097 | Date: 28-10-2026
+ * Assignment 5: CartItem - one line in the cart (product + quantity).
+ */
 package bean;
 
-/**
- *
- * @author sudhangsu-shekhar-bairagi
- */
 public class CartItem {
-
     private final ProductBean product;
     private final int quantity;
 
@@ -15,23 +13,10 @@ public class CartItem {
         this.quantity = quantity;
     }
 
-    public ProductBean getProduct() {
-        return product;
-    }
+    public ProductBean getProduct() { return product; }
+    public int getQuantity()        { return quantity; }
 
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public double getSubtotal() {
-        return product.getPrice() * quantity;
-    }
-
-    public double getDiscount() {
-        return getSubtotal() * product.getDiscountPercent() / 100;
-    }
-
-    public double getTotal() {
-        return getSubtotal() - getDiscount();
-    }
+    public double getSubtotal() { return product.getPrice() * quantity; }
+    public double getDiscount() { return getSubtotal() * product.getDiscountPercent() / 100; }
+    public double getTotal()    { return getSubtotal() - getDiscount(); }
 }

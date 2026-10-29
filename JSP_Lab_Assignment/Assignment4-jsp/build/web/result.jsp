@@ -1,7 +1,6 @@
-<%-- 
-    Document   : result
-    Created on : Oct 29, 2026, 3:59:24 PM
-    Author     : sudhangsu-shekhar-bairagi
+<%--
+  Name: Sudhangsu Shekhar Bairagi | Roll No: 13071025097 | Date: 28-10-2026
+  Assignment 4: Search form (View)
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>

@@ -1,9 +1,7 @@
-<%-- 
-    Document   : index
-    Created on : Oct 29, 2026, 4:08:33 PM
-    Author     : sudhangsu-shekhar-bairagi
+<%--
+  Name: Sudhangsu Shekhar Bairagi | Roll No: 13071025097 | Date: 28-10-2026
+  Assignment 5: Product list (View). Products come from CatalogBean.
 --%>
-
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <jsp:useBean id="catalog" class="bean.CatalogBean" scope="application"/>

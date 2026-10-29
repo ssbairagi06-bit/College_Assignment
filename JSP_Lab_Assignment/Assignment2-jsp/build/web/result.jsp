@@ -1,7 +1,6 @@
-<%-- 
-    Document   : result
-    Created on : Oct 29, 2026, 3:45:51 PM
-    Author     : sudhangsu-shekhar-bairagi
+<%--
+  Name: Sudhangsu Shekhar Bairagi | Roll No: 13071025097 | Date: 28-10-2026
+  Assignment 2: Pay slip (View). Calculations are in PayrollBean; JSP only displays.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
@@ -68,4 +67,3 @@
 </c:choose>
 </body>
 </html>
-

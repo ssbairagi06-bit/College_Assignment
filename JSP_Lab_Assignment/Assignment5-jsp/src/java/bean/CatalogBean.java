@@ -1,18 +1,12 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Name: Sudhangsu Shekhar Bairagi | Roll No: 13071025097 | Date: 28-10-2026
+ * Assignment 5: CatalogBean - the list of products on sale (Model).
  */
 package bean;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-/**
- *
- * @author sudhangsu-shekhar-bairagi
- */
 public class CatalogBean {
-
     private final List<ProductBean> products = new ArrayList<>();
 
     public CatalogBean() {
@@ -23,7 +17,5 @@ public class CatalogBean {
         products.add(new ProductBean("P5", "Notebook Pack", 250, 0));
     }
 
-    public List<ProductBean> getProducts() {
-        return products;
-    }
+    public List<ProductBean> getProducts() { return products; }
 }
